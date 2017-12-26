@@ -1,6 +1,16 @@
 {
   "dependencies": {
     "express": "^4.16.2",
+    "hashcode": "^1.0.3",
     "mongodb": "^3.0.1"
-  }
+  },
+  "scripts": {
+  	"start": "node app.js"
+  },
+  "name": "urlShortener",
+  "version": "1.0.0",
+  "description": "URL Shortener Microservice",
+  "main": "app.js",
+  "author": "Gus <gustavoaca1997@gmail.com>",
+  "license": "MIT"
 }
