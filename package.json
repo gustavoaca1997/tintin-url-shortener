@@ -2,10 +2,11 @@
   "dependencies": {
     "express": "^4.16.2",
     "hashcode": "^1.0.3",
-    "mongodb": "^3.0.1"
+    "mongodb": "^3.0.1",
+    "pug": "^2.0.0-rc.4"
   },
   "scripts": {
-  	"start": "node app.js"
+    "start": "node app.js"
   },
   "name": "urlShortener",
   "version": "1.0.0",
